@@ -1,0 +1,51 @@
+CreateNewRestaurant LaPizzeria 4356NobelDr SanDiego italian 10
+CreateNewRestaurant Civico 8765RegentsRd SanDiego italian 20
+CreateNewRestaurant OnBorder 101DoveSt SanDiego mexican 20
+CreateNewRestaurant Ortega 3465RegentsRd SanDiego mexican 30
+CreateNewRestaurant OlivioRistorante 4320CaminoDr Carlsbad italian 15
+CreateNewRestaurant MariaRistorante 6534SpringburstDr Carlsbad italian 10
+CreateNewRestaurant Agave 8764CreekViewBlvd Carlsbad mexican 30
+CreateNewRestaurant Barrio 5Broadway Carlsbad mexican 30
+PrintAllRestaurants
+FindTable SanDiego italian 10 5
+MakeReservation LaPizzeria John 858-334-3334 10 5
+FindTable SanDiego italian 15 5
+MakeReservation Civico Jamie 316-324-1234 15 5
+FindTable SanDiego italian 10 5
+FindTable SanDiego italian 10 6
+MakeReservation LaPizzeria Andrea 513-984-7878 10 6
+FindTable SanDiego italian 5 7
+MakeReservation LaPizzeria Amy 838-234-3111 5 7
+FindTable SanDiego mexican 10 8
+MakeReservation OnBorder Bill 222-532-3148 10 8
+FindTable SanDiego mexican 10 8
+MakeReservation OnBorder Andre 325-632-9148 10 8
+FindTable SanDiego mexican 2 8
+MakeReservation Ortega Kathy 617-682-5148 2 8
+FindTable Carlsbad mexican 4 8
+MakeReservation Barrio Jenna 633-782-9848 4 8
+FindTable Carlsbad mexican 20 7
+MakeReservation Barrio Davina 315-380-9848 20 7
+MakeReservation Barrio Pete 215-380-9845 6 7
+FindTable Carlsbad mexican 5 7
+MakeReservation Agave Joe 399-300-1848 5 7
+FindTable Carlsbad italian 5 6
+MakeReservation OlivioRistorante Courtney 229-456-1865 5 6
+MakeReservation OlivioRistorante Patrick 665-102-0876 5 6
+MakeReservation MariaRistorante Nancy 218-396-2349 5 6
+FindTableAtRestaurant LaPizzeria 2
+MakeReservation LaPizzeria Carolyn 613-084-7898 2 7
+FindTableAtRestaurant LaPizzeria 3
+MakeReservation LaPizzeria Edward 313-284-0087 3 7
+FindTableAtRestaurant LaPizzeria 3
+MakeReservation LaPizzeria Michael 215-487-1082 3 8
+FindTableAtRestaurant Agave 26
+MakeReservation Agave Joe 615-233-1065 26 5
+FindTableAtRestaurant LaPizzeria 8
+PrintRestaurantReservations LaPizzeria
+PrintRestaurantReservations Civico
+PrintRestaurantReservations Ortega
+PrintRestaurantReservations OlivioRistorante
+PrintRestaurantReservations Agave
+PrintRestaurantReservations Barrio
+PrintRestaurantReservations Season23
